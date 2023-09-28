@@ -4,8 +4,10 @@
     box-sizing: border-box;
 }
 
+
 body {
-    background-color: chartreuse;
+   background: rgb(2,0,36);
+   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(97,121,9,1) 35%, rgba(0,212,255,1) 100%);
 }
 
 .div-titulo {
@@ -16,19 +18,18 @@ body {
     align-items: center;
 }
 
-.div-titulo h1{
+.div-titulo h1 {
     font-weight: 300;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.contenedor{
+.contenedor {
     width: 100%;
     height: calc(100vh - 100px);
     display: flex;
     justify-content: center;
 }
 
-/*Estilos del formulario*/
+/* ESTILOS FORMULARIO */
 .contenedor .div-formulario {
     width: 30%;
     height: 250px;
@@ -42,11 +43,11 @@ body {
     box-shadow: 10px 10px rgba(0, 0, 0, 0.3);
 }
 
-.contenedor .div-formulario h2{
+.contenedor .div-formulario h2 {
     margin-top: 10px;
     font-weight: 300;
     font-size: 2em;
-    color: brown;
+    color: whitesmoke;
 }
 
 .contenedor .div-formulario form {
@@ -80,9 +81,9 @@ body {
 
 .contenedor .div-listado h2 {
     margin-top: 10px;
-    font-weight: 200;
+    font-weight: 300;
     font-size: 2em;
-    color:darkorange;
+    color: whitesmoke;
 }
 
 .contenedor .div-listado .div-empleados {
@@ -93,6 +94,12 @@ body {
     align-items: center;
     margin: 15px;
     padding: 0 30px;
+}
+
+.contenedor .div-listado .div-empleados p {
+    margin: 10px 0;
+    font-size: 1em;
+    color: #ddd;
 }
 
 hr {
